@@ -1,0 +1,6 @@
+emby-plus:
+  auto-transfer:
+    enable: true
+    source-path: /最近接收/自动转存
+    dest-path: /转存/自动转存
+    period-minute: 1  # 定时任务间隔，单位：分钟
