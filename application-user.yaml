@@ -1,6 +1,10 @@
 emby-plus:
   auto-transfer:
+    # 是否开启自动转存（true:开启、false:关闭）默认关闭
     enable: true
     source-path: /最近接收/自动转存
     dest-path: /转存/自动转存
-    period-minute: 1  # 定时任务间隔，单位：分钟
+    # 定时任务间隔，单位：分钟，默认10
+    period-minute: 1
+    # 转存任务的最大线程数，默认10
+    max-thread: 10
