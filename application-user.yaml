@@ -1,4 +1,9 @@
 emby-plus:
+  emby:
+    # emby_host
+    host: http://ip:port
+    # emby的api_key，在emby后台获取
+    api-key: xxxxx
   auto-transfer:
     # 是否开启自动转存（true:开启、false:关闭）默认关闭
     enable: true
